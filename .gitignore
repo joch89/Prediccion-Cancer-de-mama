@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Modelo entrenado
+*.pkl
+*.h5
+
+# Datos grandes / CSV
+data.csv
+
+# GitHub Actions (opcional)
+.github/workflows/secrets.yml
